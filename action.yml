@@ -99,7 +99,7 @@ runs:
         Write-Error "Install denied on Windows, currently not supported"
 
     - name: 'Setup Go'
-      uses: 'actions/setup-go@v5'
+      uses: 'actions/setup-go@v7'
       with:
         go-version: "1.20" # ${{ inputs.go-version }}
         go-version-file: ${{ inputs.go-version-file }}
